@@ -1,0 +1,25 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+canvas {
+    display: block;
+    background-color: #fff;
+    cursor: crosshair;
+}
+#toolbar {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 999;
+}
+button {
+    margin-right: 10px;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
